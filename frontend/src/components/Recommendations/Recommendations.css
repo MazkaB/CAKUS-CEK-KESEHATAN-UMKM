@@ -1,0 +1,48 @@
+.recommendations {
+  padding: 0;
+}
+
+.recommendations .ant-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recommendations .ant-collapse {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+}
+
+.recommendations .ant-collapse-header {
+  padding: 12px 16px;
+  font-weight: 500;
+}
+
+.recommendations .ant-collapse-content {
+  border-top: 1px solid #f0f0f0;
+}
+
+.recommendations .ant-list-item {
+  padding: 8px 0;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.recommendations .ant-list-item:last-child {
+  border-bottom: none;
+}
+
+.recommendations .ant-tag {
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .recommendations .ant-col {
+    margin-bottom: 16px;
+  }
+  
+  .recommendations .ant-collapse-header {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}

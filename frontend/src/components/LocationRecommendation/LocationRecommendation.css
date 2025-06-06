@@ -1,0 +1,56 @@
+.location-recommendation {
+  padding: 0;
+}
+
+.location-recommendation .ant-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.location-recommendation .ant-form-item-label > label {
+  font-weight: 500;
+}
+
+.location-recommendation .ant-list-item {
+  padding: 0;
+}
+
+.location-recommendation .ant-list-item .ant-card {
+  margin-bottom: 0;
+}
+
+.location-recommendation .ant-tag {
+  margin: 2px;
+}
+
+.location-recommendation .compatibility-score {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Market analysis section */
+.location-recommendation .market-analysis h4 {
+  color: #1890ff;
+  margin-bottom: 8px;
+}
+
+.location-recommendation .market-analysis ul {
+  padding-left: 16px;
+}
+
+.location-recommendation .market-analysis li {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .location-recommendation .ant-col {
+    margin-bottom: 16px;
+  }
+  
+  .location-recommendation .ant-row {
+    margin-bottom: 12px;
+  }
+}

@@ -1,0 +1,144 @@
+.dashboard {
+  padding: 0;
+}
+
+.dashboard .ant-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.dashboard .ant-statistic-title {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.dashboard .ant-statistic-content {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dashboard .ant-table-wrapper {
+  overflow-x: auto;
+}
+
+.dashboard .ant-table-thead > tr > th {
+  background: #fafafa;
+  font-weight: 600;
+}
+
+.dashboard .filter-section {
+  background: #f9f9f9;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.dashboard .chart-container {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard .no-data {
+  text-align: center;
+  padding: 50px;
+  color: #999;
+  font-size: 14px;
+}
+
+/* Action buttons */
+.dashboard .action-buttons {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.dashboard .action-buttons .ant-btn {
+  font-size: 12px;
+  height: 28px;
+  padding: 0 8px;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .dashboard .ant-col {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard .action-buttons {
+    flex-direction: column;
+  }
+  
+  .dashboard .action-buttons .ant-btn {
+    width: 100%;
+    margin-bottom: 4px;
+  }
+  
+  .dashboard .ant-statistic-content {
+    font-size: 18px;
+  }
+}
+
+/* Cluster badges */
+.dashboard .cluster-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.dashboard .cluster-0 {
+  background: #fff2e8;
+  color: #fa8c16;
+}
+
+.dashboard .cluster-1 {
+  background: #f6ffed;
+  color: #52c41a;
+}
+
+/* Risk level indicators */
+.dashboard .risk-rendah {
+  color: #52c41a;
+  font-weight: 500;
+}
+
+.dashboard .risk-sedang {
+  color: #faad14;
+  font-weight: 500;
+}
+
+.dashboard .risk-tinggi {
+  color: #f5222d;
+  font-weight: 500;
+}
+
+/* Loading states */
+.dashboard .loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+
+.dashboard .loading-text {
+  margin-top: 16px;
+  color: #666;
+}
+
+/* Chart responsiveness */
+.dashboard .recharts-wrapper {
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  .dashboard .recharts-wrapper {
+    font-size: 12px;
+  }
+}

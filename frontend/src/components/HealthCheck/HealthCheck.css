@@ -1,0 +1,43 @@
+.health-check {
+  padding: 0;
+}
+
+.health-check .ant-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.health-check .ant-statistic-title {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.health-check .ant-statistic-content {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.health-check .ant-progress-bg {
+  border-radius: 10px;
+}
+
+.health-check .ant-alert {
+  border-radius: 8px;
+}
+
+.health-check .ant-alert ul {
+  margin: 8px 0;
+  padding-left: 20px;
+}
+
+.health-check .ant-alert li {
+  margin: 4px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .health-check .ant-col {
+    margin-bottom: 16px;
+  }
+}

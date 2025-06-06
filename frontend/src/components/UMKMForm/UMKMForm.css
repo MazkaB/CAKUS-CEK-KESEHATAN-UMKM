@@ -1,0 +1,55 @@
+.umkm-form {
+  padding: 0;
+}
+
+.umkm-form .ant-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.umkm-form .ant-steps {
+  margin-bottom: 24px;
+}
+
+.umkm-form .ant-form-item-label > label {
+  font-weight: 500;
+}
+
+.umkm-form .ant-input-number {
+  width: 100%;
+}
+
+.umkm-form .ant-btn {
+  min-width: 120px;
+}
+
+/* Step content animation */
+.umkm-form .step-content {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .umkm-form .ant-col {
+    margin-bottom: 16px;
+  }
+  
+  .umkm-form .ant-steps {
+    margin-bottom: 16px;
+  }
+  
+  .umkm-form .ant-steps-item-title {
+    font-size: 12px;
+  }
+}

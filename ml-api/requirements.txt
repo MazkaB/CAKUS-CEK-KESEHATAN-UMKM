@@ -1,0 +1,14 @@
+# ml-api/requirements.txt
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+google-generativeai
+geopy
+folium
+python-multipart
+python-dotenv
+pydantic
+httpx
+pymongo
